@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bali Travel</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar start -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Bali <span>Travel</span>.</a>
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#services">Services</a>
+        <a href="#destinasi">Destinasi</a>
+        <a href="#contact">Kontak</a>
+      </div>
+      <div class="navbar-extra">
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Hero Section start -->
+    <section class="hero" id="home">
+      <div class="container">
+        <main class="content">
+          <h1>Selamat datang di Bali Travel, pelayanan tour dan travel terbaik di Bali</h1>
+          <p>Kami menyediakan paket wisata yang mengagumkan untuk liburan Anda.</p>
+          <a href="whatsapp://send?text=Hello&phone=+6283114370400" class="cta">Get it in one touch</a>
+        </main>
+      </div>
+    </section>
+    <!-- Hero Section end -->
+
+    <!-- About Section start -->
+    <section id="about" class="about">
+      <h2><span>Tentang </span>Kami</h2>
+      <div class="row">
+        <div class="about-img">
+          <img src="img/foto2.jpg" alt="Tentang Kami" />
+        </div>
+        <div class="content">
+          <h3>Kenapa Memilih Bali Travel?</h3>
+          <p>Bali Travel merupakan pilihan terbaik untuk menjelajahi kecantikan Bali. Dengan layanan profesional dan pengalaman kami, kami akan membuat liburan Anda menjadi tak terlupakan.</p>
+          <p>Nikmati petualangan tanpa batas dengan Bali Travel. Jadikan setiap momen liburan Anda berharga.</p>
+        </div>
+      </div>
+    </section>
+    <!-- About Section end -->
+
+    <!-- Services Section start -->
+    <section id="services" class="services">
+      <h2><span>Layanan </span>Kami</h2>
+      <p>Pilih Layanan terbaik dari Bali Travel yang dipandu oleh guide dan driver kami yang profesional untuk memenuhi keinginan Anda.</p>
+      <div class="row">
+        <div class="services-card">
+          <i data-feather="send" class="services-card-icon"></i>
+          <h3 class="services-title">Airport Transfer</h3>
+          <p class="services-p">Kami menyediakan layanan transfer bandara yang nyaman dan andal untuk memulai petualangan Anda di Bali.</p>
+        </div>
+        <div class="services-card">
+          <i data-feather="airplay" class="services-card-icon"></i>
+          <h3 class="services-title">Honeymoon</h3>
+          <p class="services-p">Rencanakan liburan romantis bersama pasangan Anda dengan paket honeymoon khusus dari Bali Travel.</p>
+        </div>
+        <div class="services-card">
+          <i data-feather="globe" class="services-card-icon"></i>
+          <h3 class="services-title">Sightseeing Tour</h3>
+          <p class="services-p">Jelajahi destinasi terbaik Bali dengan tur wisata yang dipandu oleh ahli lokal untuk pengalaman yang mendalam.</p>
+        </div>
+      </div>
+    </section>
+    <!-- Services Section end -->
+
+    <!-- Destinasi Section start -->
+    <section id="destinasi" class="destinasi">
+      <h2><span>Destinasi </span>Terbaik</h2>
+      <p>Temukan keindahan alam dan budaya Bali dengan paket tour unggulan dari Bali Travel.</p>
+      <div class="row">
+        <div class="destinasi-card">
+          <img src="img/destinasi/nusapenida.jpg" alt="Nusa Penida" class="destinasi-card-img" />
+          <h3 class="destinasi-card-title">Paket Tour Nusa Penida</h3>
+          <p class="destinasi-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est beatae cumque ullam?</p>
+          <h4 class="destinasi-h4">Harga: 800.000/hari</h4>
+        </div>
+        <div class="destinasi-card">
+          <img src="img/destinasi/ubud.jpg" alt="Ubud" class="destinasi-card-img" />
+          <h3 class="destinasi-title">Paket Tour Ubud</h3>
+          <p class="destinasi-p">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+          <h4 class="destinasi-h4">Harga: 600.000/hari</h4>
+        </div>
+        <div class="destinasi-card">
+          <img src="img/destinasi/fotokuta.jpg" alt="Kuta" class="destinasi-card-img" />
+          <h3 class="destinasi-title">Paket Tour Kuta</h3>
+          <p class="destinasi-p">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+          <h4 class="destinasi-h4">Harga: 500.000/hari</h4>
+        </div>
+        <div class="destinasi-card">
+          <img src="img/destinasi/fotobatur.jpg" alt="Batur" class="destinasi-card-img" />
+          <h3 class="destinasi-title">Paket Tour Gunung Batur</h3>
+          <p class="destinasi-p">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+          <h4 class="destinasi-h4">Harga: 700.000/hari</h4>
+        </div>
+      </div>
+    </section>
+    <!-- Destinasi Section end -->
+
+    <!-- Contact Section start -->
+    <section id="contact" class="contact">
+      <h2><span>Kontak </span>Kami</h2>
+      <p>Form pemesanan Paket Tour.</p>
+
+      <form action="proses_pemesanan.php" method="post">
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" required /><br /><br />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required /><br /><br />
+
+        <label for="paket">Pilihan Paket Tour:</label>
+        <select id="paket" name="paket" required>
+          <option value="">Pilih Paket Tour</option>
+          <option value="Paket Tour Nusa Penida">Paket Tour Nusa Penida</option>
+          <option value="Paket Tour Ubud">Paket Tour Ubud</option>
+          <option value="Paket Tour Kuta">Paket Tour Kuta</option>
+          <option value="Paket Tour Gunung Batur">Paket Tour Gunung Batur</option></select
+        ><br /><br />
+
+        <label for="hari">Jumlah Hari:</label>
+        <input type="number" id="hari" name="hari" min="1" required /><br /><br />
+
+        <input type="submit" value="Pesan" />
+      </form>
+    </section>
+    <!-- Contact Section end -->
+
+    <!-- Footer start -->
+    <footer>
+      <div class="socials">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+      </div>
+
+      <div class="credit">
+        <p>Created by <a href="">AryDarmiyanthi</a>. | &copy; 2024</p>
+      </div>
+    </footer>
+    <!-- Footer end -->
+
+    <!-- Wa Icons start -->
+    <a href="https://wa.me/6283114370400?text=Hi%20Qiscus" class="floating" target="_blank">
+      <i class="fab fa-whatsapp fab-icon" style="color: #ffffffeb"></i>
+    </a>
+
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My Javascript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
